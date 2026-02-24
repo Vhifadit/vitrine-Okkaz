@@ -130,4 +130,10 @@ html,body{
         }
        
     }
+    header .navigation{
+        border: 0.5rem black solid;
+        margin-left: 2rem;
+        border-bottom-left-radius: 1.5rem;
+        border-top-left-radius: 1.5rem;
+    }
 }
