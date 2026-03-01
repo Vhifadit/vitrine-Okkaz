@@ -248,5 +248,66 @@ html,body{
        
                 
     }
-    
+
+    main {
+
+        .presentation{
+           display: flex;
+           justify-content: center;
+           align-items: flex-start;/*c'est pour que les 
+           deux divent comment au mm niveau */
+           height: 30rem;
+           max-width: 50rem;
+           margin:0 auto;
+           gap: 2rem;
+            padding: 4rem;
+
+
+           .presentation1{
+              display: flex;
+              flex: 1;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+              height: auto;
+
+              img{
+                width: 100%;
+                height: 15rem;
+                border-radius: 1rem;
+              } 
+              p{
+                width: 100%;
+                font-size: 1rem;
+                text-align: justify;
+              }
+
+
+            }
+            .presentation2{
+                display: flex;
+                flex:1;
+                flex-direction: column;
+                justify-content:end;
+                height: auto;
+
+                p{
+                    max-width: 60rem;
+                    font-size: 1rem;
+                    line-height: 1rem; 
+                }
+
+                h3,h2{
+                    color: rgb(69, 134, 224);
+                }
+            }
+        }
+        .nos-services{
+            border: black 0.5rem solid;
+            text-align: center;
+            padding: 4rem;
+            margin: 2rem 0;
+           
+        }
+    }
 }
