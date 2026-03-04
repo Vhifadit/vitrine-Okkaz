@@ -460,6 +460,7 @@ html,body{
                         height: 3rem;
                         border: solid blue 0.1rem;
                         border-radius: 2rem;
+                        background-color: rgba(255, 255, 255, 0.779);
                     } 
                     button{
                         width: 7rem;
@@ -476,13 +477,39 @@ html,body{
        .contact12{
             display:flex;
             justify-content: center;
-            border: solid black 0.2rem;
+            border: solid white 0.2rem;
             align-items: center;
             gap: 2rem;
+            background-color: aliceblue;
+            height: 10rem;
 
 
-        
+            .avant-footer{
+                border: solid white 0.5rem ;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap:2rem;
+                padding-right: 1rem;
+                padding-left: 1rem;
 
+                img{
+                    background-color: rgba(0, 0, 255, 0.662);
+                    border: solid blue 0.1rem;
+                    padding: 0.5rem;
+                    border-radius: 50%;
+                
+
+                
+                }
+               
+            }
+
+            .gros{
+                height: 7rem;
+                max-width: 100%;
+            }
         }  
 }
 }
